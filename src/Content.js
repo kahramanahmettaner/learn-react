@@ -1,6 +1,5 @@
 import React from 'react'
 import { ItemList } from './ItemList'
-// installed: npm i react-icons -D
 
 const Content = ({ items, handleCheck, handleDelete }) => {
 

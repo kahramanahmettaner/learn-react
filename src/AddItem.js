@@ -20,7 +20,7 @@ const AddItem = ({ newItem, setNewItem, handleSubmit }) => {
             <button
                 type='submit'
                 aria-label='Add Item'
-                onClick={() => inputRef.current.focus()}
+                onClick={() => inputRef.current.focus}
             >
                 <FaPlus/>
             </button>

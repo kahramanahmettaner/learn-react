@@ -4,7 +4,7 @@ import { FaTrashAlt } from 'react-icons/fa'
 // npm i react-icons --save-prod
 
 
-export const LineItem = ({ item, handleCheck, handleDelete }) => {
+const LineItem = ({ item, handleCheck, handleDelete }) => {
   return (
     <li className='item'>
         <input
@@ -30,3 +30,5 @@ export const LineItem = ({ item, handleCheck, handleDelete }) => {
     </li>
   )
 }
+
+export default LineItem;

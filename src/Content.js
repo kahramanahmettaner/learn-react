@@ -1,5 +1,5 @@
 import React from 'react'
-import { ItemList } from './ItemList'
+import ItemList from './ItemList';
 
 const Content = ({ items, handleCheck, handleDelete }) => {
 
@@ -16,4 +16,4 @@ const Content = ({ items, handleCheck, handleDelete }) => {
   )
 }
 
-export default Content
+export default Content;
